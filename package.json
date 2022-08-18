@@ -23,7 +23,7 @@
     "coverage": "codecov",
     "watch": "jest --watch",
     "check": "flow check",
-    "prepublishOnly": ". ./resources/prepublish.sh",
+    "prepare": "npm run build",
     "lint": "standard"
   },
   "keywords": [
